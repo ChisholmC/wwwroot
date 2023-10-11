@@ -1,30 +1,43 @@
+# Rock Paper Sissors
+
 # Cameron Chisholm
-# w0488566
-# 2023-09-25
-# Version 1.82
+# W0488566
+# IT Generealist
+#Date October 4th 2023
+#VERSION 1.82
 
-# Ask the user for their name and their age in years
+
+
+import random
+
+# Global Constants
+ROCK = 1
+PAPER = 2
+SCISSORS = 3
+
 while True:
-    user_name = input("Please Enter Your Name: ")
-    age_in_years = input("Please Enter your age in years: ")
+    # Local Variable user_input
+    user_input = input("Press 1 for rock, 2 for paper, 3 for scissors: ")
 
-    # Determine if the user input a valid age (or if they are 0 years old)
-    if age_in_years.isdigit():
-        age_in_years = int(age_in_years)  # Convert age_in_years to an integer
+    # Validate user input
+    if user_input.isdigit():
+        user_input = int(user_input)
+        
+        if 1 <= user_input <= 3:
+            # Calculate the computer's value
+            computer_value = random.randint(1, 3)
 
-        if age_in_years == 0:
-            print("You were either born today or you haven't been born yet!")
+            if user_input == computer_value:
+                print("Tie Game")
+            elif (user_input == ROCK and computer_value == SCISSORS) or \
+                 (user_input == PAPER and computer_value == ROCK) or \
+                 (user_input == SCISSORS and computer_value == PAPER):
+                print("You Win!")
+            else:
+                print("Computer Wins!")
         else:
-            # Calculate the current year
-            current_year = 2023
-
-            # Determine the birth year
-            birth_year = current_year - age_in_years
-
-            # Display the user's birth year
-            print(f"{user_name}, you were born in the year {birth_year}")
-        break  # Exit the loop when valid input is provided
+            print("Invalid input. Please enter 1 for rock, 2 for paper, or 3 for scissors.")
     else:
-        print("Please enter a valid age as a number.")
+        print("Invalid input. Please enter a digit (1, 2, 3).")
 
         

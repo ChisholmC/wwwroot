@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Network Diagramming Symbols</h1>
+
+
+</style>
+
+
+
+</body>
+</html>
+<style>
+
+
+
+
+
+
+body {
+  background-color: lightblue;
+  ;
+}
+
+h1 {
+
+  color: rgb(14, 149, 222);
+}
+
+div {
+  background-color
+  color
+}
+<html>
+<body>
+
+
+<h1>Network Diagramming Symbols</h1>
+<p></p>
+<div></div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+}
+
+
+</style>
+
+
+<html>
+<body>
+
+<h2></h2>
+
+
+</body>
+</html>
+
+<meta name="viewport" content="=width=device-width,intial-scale=1.0">
+
+<img src="https://raw.githubusercontent.com/ecceman/affinity/48d4a4fa87957cb542678ed5952227028b8657f5/svg/circle/blue/c_cloud_blue.svg" style="max-width:25%;height:auto;">
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Service Provider</h1>
+
+<p></p>
+
+</body>
+</html>
+<img src="https://raw.githubusercontent.com/ecceman/affinity/48d4a4fa87957cb542678ed5952227028b8657f5/svg/circle/blue/c_firewall_blue.svg" style="max-width:25%;height:auto;">
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Firewall</h1>
+
+<p></p>
+
+</body>
+</html>
+<img src="https://raw.githubusercontent.com/ecceman/affinity/48d4a4fa87957cb542678ed5952227028b8657f5/svg/circle/blue/c_house_blue.svg" style="max-width:25%;height:auto;">
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>SOHO</h1>
+
+<p></p>
+
+</body>
+</html>
+<img src="https://raw.githubusercontent.com/ecceman/affinity/48d4a4fa87957cb542678ed5952227028b8657f5/svg/circle/blue/c_switch_blue.svg" style="max-width:25%;height:auto;">
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Layer 2 Switch</h1>
+
+<p></p>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is a comment -->
+<p>Name:Cameron Chisholm</p>
+<!-- Comments are not displayed in the browser -->
+<!-- This is a comment -->
+<p>Student ID: W0488566</p>
+<!-- Comments are not displayed in the browser -->
+<!-- This is a comment -->
+<p>Course: IT Generalist</p>
+<!-- Comments are not displayed in the browser -->
+<!-- This is a comment -->
+<p>Date: September 20th 2023</p>
+<!-- Comments are not displayed in the browser -->
+<!-- This is a comment -->
+<p>Version 1.82</p>
+<!-- Comments are not displayed in the browser -->
+</body>
+</html>

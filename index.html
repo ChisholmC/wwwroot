@@ -44,8 +44,55 @@ Version: HTML Bootstrap 5
 
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>NSCC Ride Sharing</h1>
-  <p>Main menu</p>
+  <p>Cameron Chisholm</p>
   
+  <html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation Bar</title>
+	<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: light blue; font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+		button{
+			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#"></a> </div>
+			<ul>
+				<button><a href="#">Need a Ride</a></button>
+                <button><a href="#">Give a Ride</a></button>
+				<button><a href="#">FAQs</a></button>
+				<button><a href="#">Terms and Services</a></button>
+            </ul>
+		</div>
+        <img src="https://nscc-my.sharepoint.com/:i:/r/personal/w0488566_campus_nscc_ca/Documents/Pictures/Camera%20Roll/232-2325782_nscc-logo-nova-scotia-community-college.png?csf=1&web=1&e=jnCmhX" width="400" height="100">
+	</nav>
+</body>
+</html>
 </div>
   
 <div class="container mt-5">
@@ -70,9 +117,48 @@ Version: HTML Bootstrap 5
 </html>
 
 <ul>
-  <li><a href="#home">Hero</a></li>
-  <li><a href="#news">Drivers & Riders</a></li>
-  <li><a href="#contact">Testimonies</a></li>
-  <li><a href="#about">FAQs</a></li>
-  <li><a href="#about">Saftey</a></li>
-</ul>
+  
+
+
+</body>
+</html>
+
+
+<section id="faqs">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1"
+            aria-expanded="true" aria-controls="faqCollapse1">
+            How much do you have to pay?
+          </button>
+        </h2>
+        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            It depends on each driver and how many passengers there are, maybe each week 1 person can fill it fully or they could all just pay a little bit of money.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2"
+            aria-expanded="false" aria-controls="faqCollapse2">
+            What happens if i need to quickly cancel??
+          </button>
+        </h2>
+        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            You can cancel at anytime just make sure you notify the driver.
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>

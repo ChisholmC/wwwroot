@@ -1,0 +1,160 @@
+index.html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Improved Portfolio</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+
+    h1 {
+      background-color: DodgerBlue;
+      color: white;
+      padding: 20px;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    .navbar {
+      background: lightblue;
+      font-family: calibri;
+      padding-right: 15px;
+      padding-left: 15px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .navdiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .logo a {
+      font-size: 35px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    li {
+      margin-right: 25px;
+    }
+
+    li a {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    button {
+      background-color: black;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    button a {
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    .columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .column {
+      flex: 1;
+      margin: 10px;
+      text-align: center;
+    }
+
+    h2 {
+      color: DodgerBlue;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Portfolio</h1>
+
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo">
+        <img src="https://nscc-my.sharepoint.com/:i:/r/personal/w0488566_campus_nscc_ca/Documents/Pictures/Camera%20Roll/232-2325782_nscc-logo-nova-scotia-community-college.png?csf=1&web=1&e=gNyp7P" alt="Logo">
+        <a href="#">Logo</a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="columns">
+    <div class="column">
+      <h2>Information About Me</h2>
+      <p>My name is Cameron Chisholm. I go to Strait Area Community College in Port Hawkesbury. I'm 18 years old and was born in Antigonish, Nova Scotia.</p>
+    </div>
+
+    <div class="column">
+      <h2>My Projects</h2>
+      <p>I do a lot of coding that includes HTML, CSS, Python, Javascript. I also like Networking and Fixing Computers.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; Cameron Chisholm
+    W0488566@campus.nscc.ca
+    ChisholmC (Github)</p>
+  </footer>
+</body>
+</html>
+
+<head>
+  <!-- ... existing meta tags and title ... -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
